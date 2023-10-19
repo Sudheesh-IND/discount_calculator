@@ -1,0 +1,81 @@
+
+.discount-portion{
+    width: 800px;
+   
+    backdrop-filter: blur(30px);
+    
+    margin-top: 150px;
+    border-radius: 2rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.463);
+    /* background: url(https://th.bing.com/th/id/R.c5a28807441f10c684e2b42dc18382a1?rik=x0FvnRuBQDwLZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1836725.jpg&ehk=fKk1oT9dI9VxlSIMzYlTukQlaBblDUK96IpZCmXNPMc%3d&risl=&pid=ImgRaw&r=0); */
+   
+}
+.container-fluid{
+    min-height: 100vh;
+   
+    background: url(https://www.itl.cat/pngfile/big/235-2353174_woman-shopping-vector-png.png);
+    background-size: cover;
+    background-position: top;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    backdrop-filter: blur(30px);
+    padding-bottom: 50px;
+}
+#form1{
+    margin-top: 30px;
+    height: 50px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.443);
+   
+   
+    
+}
+.btn-success,.btn-danger{
+  width: 140px;
+  letter-spacing: 3px;
+  margin-top: 50px;
+  text-align: center;
+}
+img{
+    width: 100%;
+}
+.img-portion{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.display-portion{
+    height: 100%;
+}
+form{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.discount{
+    margin-top: 50px;
+}
+.head{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+.save p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    letter-spacing: 4px;
+}
+form{
+    padding-top: 20px;
+}
+
+@media screen and (max-width:501px) {
+    form{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
